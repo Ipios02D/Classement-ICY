@@ -61,10 +61,11 @@ if st.button("🔄 Actualiser les données depuis Google Sheets"):
 # --- CONNEXION BASE DE DONNÉES ---
 # Crée une connexion au Google Sheet
 conn = st.connection("gsheets", type=GSheetsConnection)
+url_sheet = "https://docs.google.com/spreadsheets/d/1wgSA92nA7YnQ5_bSfiiPv8DqtOXOb34u3uT6OdiVSzs/edit?usp=sharing"
 
 try:
     # Lire les données (ttl=0 signifie pas de cache long, pour voir les modifs vite)
-    df_input = conn.read(ttl=10)
+    df_input = conn.read(spreadsheet=url_sheet, ttl=10)
     
     # Vérification que la colonne Nom existe
     if "Nom" not in df_input.columns:
