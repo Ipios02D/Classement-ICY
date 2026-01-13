@@ -19,7 +19,7 @@ PROGRAMME_EDUCATIF = {
             "Org. Entreprises": 1.0,
             "Comptabilité": 3.0,
             "Gestion Projet": 1.0,
-            "APSA (Sport)": 2.0
+            "FAPSA (Sport)": 2.0
         }
     },
     "Maths": {
