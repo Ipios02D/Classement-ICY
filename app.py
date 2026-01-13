@@ -12,18 +12,18 @@ from streamlit_gsheets import GSheetsConnection
 
 PROGRAMME_EDUCATIF = {
     "LSH1": {
-        "coef_ue": 2.0,  # Coefficient de l'UE LSH1 dans la moyenne générale
+        "coef_ue": 5.0,  # Coefficient de l'UE LSH1 dans la moyenne générale
         "matieres": {
-            "Anglais": 1.36,          # Coef de la matière DANS l'UE
-            "RSE": 0.45,
-            "Org. Entreprises": 0.45,
-            "Comptabilité": 1.36,
-            "Gestion Projet": 0.45,
-            "APSA (Sport)": 0.9
+            "Anglais": 3.0,          # Coef de la matière DANS l'UE
+            "RSE": 1.0,
+            "Org. Entreprises": 1.0,
+            "Comptabilité": 3.0,
+            "Gestion Projet": 1.0,
+            "APSA (Sport)": 2.0
         }
     },
     "Maths": {
-        "coef_ue": 4.0,  # Coefficient de l'UE Maths
+        "coef_ue": 5.0,  # Coefficient de l'UE Maths
         "matieres": {
             "Analyse Appliquée": 1.5,
             "Proba & Stats": 1.75,
@@ -31,38 +31,38 @@ PROGRAMME_EDUCATIF = {
         }
     },
     "Archi": {
-        "coef_ue": 3.0,
+        "coef_ue": 4.0,
         "matieres": {
-            "Archi Système": 2.0,
-            "Prog Système": 2.0
+            "Archi Système": 1.0,
+            "Prog Système": 1.0
         }
     },
     "Securite": {
-        "coef_ue": 2.0,
+        "coef_ue": 3.0,
         "matieres": {
             "BDD Système": 2.0,
             "RGPD": 1.0
         }
     },
     "Optimisation": {
-        "coef_ue": 2.0,
+        "coef_ue": 3.0,
         "matieres": {
-            "Prog Linéaire": 1.5,
-            "Complexité": 1.5
+            "Prog Linéaire": 1.0,
+            "Complexité": 1.0
         }
     },
     "DevApp": {
-        "coef_ue": 4.0,
+        "coef_ue": 6.0,
         "matieres": {
-            "Langage C (Niv 2)": 2.0,
-            "POO Java": 2.0,
-            "Dev Web 1": 2.0
+            "Langage C (Niv 2)": 1.0,
+            "POO Java": 1.0,
+            "Dev Web 1": 1.0
         }
     },
     "SAE": {
-        "coef_ue": 5.0,
+        "coef_ue": 3.0,
         "matieres": {
-            "Projet Web": 3.0
+            "Projet Web": 1.0
         }
     }
 }
