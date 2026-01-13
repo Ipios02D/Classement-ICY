@@ -5,8 +5,8 @@ from streamlit_gsheets import GSheetsConnection
 
 # --- 1. CONFIGURATION ---
 STRUCTURE_COURS = {
-    "LSH1": {"Anglais": 2.0, "RSE": 0.5, "Org. Entreprises": 0.5, "Comptabilité": 0.5, "Gestion Projet": 1.0, "APSA (Sport)": 0.5},
-    "Maths": {"Analyse Appliquée": 1.5, "Proba & Stats": 2.0, "Analyse Numérique": 1.5},
+    "LSH1": {"Anglais": 1.36, "RSE": 0.45, "Org. Entreprises": 0.45, "Comptabilité": 1.36, "Gestion Projet": 0.45, "APSA (Sport)": 0.9},
+    "Maths": {"Analyse Appliquée": 1.5, "Proba & Stats": 1.75, "Analyse Numérique": 1.75},
     "Archi": {"Archi Système": 2.0, "Prog Système": 2.0},
     "Securite": {"BDD Système": 2.0, "RGPD": 1.0},
     "Optimisation": {"Prog Linéaire": 1.5, "Complexité": 1.5},
