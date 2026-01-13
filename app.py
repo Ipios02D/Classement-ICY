@@ -283,8 +283,7 @@ if not df_input.empty:
             st.dataframe(
                 df_final[cols_finales].style.format("{:.2f}", subset=[c for c in cols_finales if c not in ["Rang", "Nom"]]),
                 use_container_width=True, 
-                hide_index=True,
-                height=500
+                hide_index=True
             )
 
         # --- B. DÉTAILS PAR UE ---
